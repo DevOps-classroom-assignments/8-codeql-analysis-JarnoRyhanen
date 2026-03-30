@@ -8,6 +8,8 @@ import (
 	"path/filepath"
 )
 
+// test commit
+
 const allowedDir = "./safe-files"
 
 func main() {
