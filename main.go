@@ -5,10 +5,7 @@ import (
 	"io/ioutil"
 	"net/http"
 	"os/exec"
-	"path/filepath"
 )
-
-// test commit
 
 const allowedDir = "./safe-files"
 
