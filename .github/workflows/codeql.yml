@@ -67,6 +67,9 @@ jobs:
       - name: Run Docker container
         run: docker run -d -p 8080:8080 --name go-container go-web-server
 
+      - name: Wait for server to be ready
+        run: sleep 15
+
       - name: Test endpoint
         run: curl http://localhost:8080/readfile?file=safe-files/hello.txt
 
