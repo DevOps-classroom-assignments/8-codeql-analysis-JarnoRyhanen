@@ -35,6 +35,8 @@ jobs:
         include:
           - language: actions
             build-mode: none
+          - language: go
+            build-mode: autobuild
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
